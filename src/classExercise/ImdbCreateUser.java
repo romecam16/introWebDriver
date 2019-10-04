@@ -69,7 +69,7 @@
 
     WebElement userLink = driver.findElement(By.id("navUserMenu"));
 
-    String userTxt= userLink.getAttribute();
+    String userTxt= userLink.getText();
 
     if(userTxt.equals("Pedro"))
     {
